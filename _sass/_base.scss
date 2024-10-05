@@ -1315,3 +1315,10 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
 }
+
+
+@media (min-width: 640px) {
+  abbr.badge {
+      width: 100%;
+  }
+}
