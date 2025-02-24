@@ -5,8 +5,9 @@
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Luigi
 last_name: Russo
-email: russol@eurecom.fr
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
+# contact_note:
+
+description: >
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -45,21 +46,6 @@ max_width: 930px
 serve_og_meta: false # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
-
-# -----------------------------------------------------------------------------
-# Social integration
-# -----------------------------------------------------------------------------
-
-acm_id: # your dl.acm.org/profile/id
-dblp_url: "https://dblp.org/pid/37/7121-1.html" # your DBLP profile url
-github_username: lrusso96 # your GitHub user name
-gitlab_username: # your GitLab user name
-instagram_id:  # your instagram id
-orcid_id: 0000-0001-9869-786X # your ORCID ID
-scholar_userid: 5rEpgq0AAAAJ # your Google Scholar ID
-x_username: # your X handle
-
-# contact_note: You can even add a little note about which of these is the best way to reach you.
 
 
 # -----------------------------------------------------------------------------
@@ -101,7 +87,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ["_pages"]
+include: ["_pages", "_scripts"]
 exclude:
   - bin/
   - CONTRIBUTING.md
@@ -139,6 +125,7 @@ plugins:
   - jekyll/scholar
   - jekyll-sitemap
   - jekyll-tabs
+  - jekyll-terser
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
@@ -158,9 +145,16 @@ sass:
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-  exclude: ["robots.txt", "assets/js/search/*.js"]
-  uglifier_args:
-    harmony: true
+  compress_javascript: false # set to false since we are using terser as the js minifier
+  # exclude: ["robots.txt", "assets/js/search/*.js"]
+
+# -----------------------------------------------------------------------------
+# Terser
+# -----------------------------------------------------------------------------
+
+terser:
+  compress:
+    drop_console: true
 
 # -----------------------------------------------------------------------------
 # Jekyll Archives

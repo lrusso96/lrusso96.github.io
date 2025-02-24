@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - "assets/**"
+      - "_sass/**"
       - "**.html"
       - "**.js"
       - "**.liquid"
@@ -17,6 +18,7 @@ on:
       - main
     paths:
       - "assets/**"
+      - "_sass/**"
       - "**.html"
       - "**.js"
       - "**.liquid"

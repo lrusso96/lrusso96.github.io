@@ -10,8 +10,8 @@
   crossorigin="anonymous"
 >
 
-<!-- Bootstrap Table -->
 {% if page.pretty_table %}
+<!-- Bootstrap Table -->
   <link
     defer
     rel="stylesheet"
@@ -23,6 +23,7 @@
 
 <!-- Fonts & Icons -->
 <link defer rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}">
+<link defer rel="stylesheet" href="{{ '/assets/css/scholar-icons.css' | relative_url | bust_file_cache }}">
 <link
   defer
   rel="stylesheet"
@@ -46,8 +47,8 @@
 
 <!-- Styles -->
 
-<!-- pseudocode -->
 {% if page.pseudocode %}
+<!-- pseudocode -->
   <link
     defer
     rel="stylesheet"
@@ -83,8 +84,8 @@
   </script>
 {% endif %}
 
-<!-- GeoJSON support via Leaflet -->
 {% if page.map %}
+<!-- GeoJSON support via Leaflet -->
   <link
     defer
     rel="stylesheet"
@@ -94,8 +95,8 @@
   >
 {% endif %}
 
-<!-- diff2html -->
 {% if page.code_diff %}
+<!-- diff2html -->
   <link
     defer
     rel="stylesheet"
@@ -122,8 +123,8 @@
 {% endif %}
 
 {% if page.images %}
-  <!-- Image comparison slider -->
   {% if page.images.compare %}
+  <!-- Image comparison slider -->
     <link
       defer
       rel="stylesheet"
