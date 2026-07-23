@@ -1,0 +1,11 @@
+[[news]]
+date = "2026-05-05"
+text = "✨ My paper with Antonio Faonio, [Sumcheck-based zkSNARKs are Non-Malleable](https://eprint.iacr.org/2026/335), has been accepted at CRYPTO 2026."
+
+[[news]]
+date = "2026-01-30"
+text = "✨ My paper with Paul Gerhart, Davide Li Calsi and Dominique Schroeder, [Fully-Adaptive Two-Round Threshold Schnorr Signatures from DDH](https://eprint.iacr.org/2025/1478), has been accepted at EUROCRYPT 2026."
+
+[[news]]
+date = "2025-06-05"
+text = "✨ My paper with Christian Badertscher, Matteo Campanelli, Michele Ciampi and Luisa Siniscalchi, [Universally Composable SNARKs with Transparent Setup without Programmable Random Oracle](https://eprint.iacr.org/2024/1549), has been accepted at CRYPTO 2025."

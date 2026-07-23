@@ -1,0 +1,51 @@
+.publications {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.publication-item {
+    margin-bottom: 2rem;
+}
+
+.publication-title {
+    font-size: 1.15rem;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+}
+
+.publication-authors {
+    font-weight: 200;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.publication-venue {
+    color: var(--text-second-color);
+    font-weight: 180;
+    line-height: 1.4;
+}
+
+
+.publication-links a {
+    display: inline-block;
+    margin-top: 4px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: .25rem;
+    padding-top: .25rem;
+    font-size: .64rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+    border-radius: .125rem;
+}
+
+.publication-links a:hover {
+    text-decoration: none;
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    transition: all 0.5s;
+}
+
+

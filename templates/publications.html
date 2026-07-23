@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Publications</h2>
+
+<section class = "publications">
+  {% set pubs = load_data(path="data/pubs.toml") %}
+  {% for item in pubs.pubs %}
+  <article class="publication-item">
+    <div class="publication-title">&ldquo;{{item.title}}&rdquo;</div>
+    <div class="publication-authors">{{item.authors}}</div>
+    {% if item.venue %}
+    <div class="publication-venue">{{item.venue}}</div>
+    {% endif %}
+    <div class="publication-links">
+      <a href="{{item.pdf}}">PDF</a>
+      {% if item.talk %}
+      <a href="{{item.talk}}">Talk</a>
+      {% endif %}
+    </div>
+  </article>
+  {% endfor %}
+</section>
+{% endblock content %}
