@@ -27,7 +27,7 @@
         <span></span>
     </label>
 
-    <nav class="menu">
+    <nav class="menu" role="navigation">
         <a href="{{get_url(path='/')}}">About</a>
         <a href="{{get_url(path='publications')}}">Publications</a>
         <a href="https://pets.wien/teaching/">Teaching</a>
@@ -36,9 +36,9 @@
 </header>
 
 
-  <div class="container">
+  <main class="container" role="main">
     {% block content %} {% endblock content %}
-  </div>
+  </main>
 </body>
 
 </html>
