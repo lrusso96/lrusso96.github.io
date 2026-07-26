@@ -15,9 +15,11 @@
 <body>
   <header class="site-header">
 
-    {% if not current_path or current_path != '/' %}
-    <a href="/" class="logo">LR</a>
-    {% endif %}
+      {% if current_path and current_path == '/' %}
+      <div class="logo"></div>
+      {% else %}
+      <a href="/" class="logo">LR</a>
+      {% endif %}
 
     <input type="checkbox" id="nav-toggle" class="nav-toggle">
 
