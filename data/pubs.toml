@@ -15,6 +15,7 @@ title = "Fully-Adaptive Two-Round Threshold Schnorr Signatures from DDH"
 authors = "Paul Gerhart, Davide Li Calsi, Luigi Russo, and Dominique Schröder"
 venue = "EUROCRYPT 2026"
 pdf = "https://eprint.iacr.org/2025/1478"
+talk = "https://youtu.be/FbdbkOKby8c?si=qMFJj5K9prys0WOo&t=2754"
 
 [[pubs]]
 title = "Universally Composable SNARKs with Transparent Setup without Programmable Random Oracle"
