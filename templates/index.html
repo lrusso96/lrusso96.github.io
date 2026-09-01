@@ -20,7 +20,7 @@ On est temporaire, c’est un fait, mais on a déjà temporé assez pour son gra
   <h2>news</h2>
 
   {% set news = load_data(path="data/news.toml") %}
-  {% for item in news.news | slice(end=3) %}
+  {% for item in news.news[:3] %}
   <article class="news-item">
     <time class="news-date" datetime="{{item.date}}">{{ item.date | date(format="%e %b %Y") }}</time>
     <div class="news-content">
