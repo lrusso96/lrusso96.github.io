@@ -1,4 +1,10 @@
 [[pubs]]
+title = "Fully Adaptive FROST in the Algebraic Group Model From Falsifiable Assumptions"
+authors = "Ruben Baecker, Paul Gerhart, Davide Li Calsi, Luigi Russo, Dominique Schröder, and Arkady Yerukhimovich"
+venue = "ASIACRYPT 2026"
+pdf = "https://eprint.iacr.org/2025/1950"
+
+[[pubs]]
 title = "Sumcheck-based zkSNARKs are Non-Malleable"
 authors = "Antonio Faonio, and Luigi Russo"
 venue = "CRYPTO 2026"
@@ -23,11 +29,6 @@ authors = "Matteo Campanelli, Antonio Faonio, and Luigi Russo"
 venue = "EUROCRYPT 2025"
 pdf = "https://eprint.iacr.org/2024/1551.pdf"
 talk = "https://youtu.be/spDQ_mVqQDs?t=3600"
-
-[[pubs]]
-title = "Fully Adaptive FROST in the Algebraic Group Model From Falsifiable Assumptions"
-authors = "Ruben Baecker, Paul Gerhart, Davide Li Calsi, Luigi Russo, Dominique Schröder, and Arkady Yerukhimovich"
-pdf = "https://eprint.iacr.org/2025/1950"
 
 [[pubs]]
 title = "Bounded-Equivocable Pseudorandom Functions"

@@ -1,4 +1,8 @@
 [[news]]
+date = "2026-08-15"
+text = "✨ My paper with Ruben Baecker, Paul Gerhart, Davide Li Calsi, Dominique Schröder and Arkady Yerukhimovich [Fully Adaptive FROST with Identifiable Aborts from AOMDL](https://eprint.iacr.org/2025/1950), has been accepted at ASIACRYPT 2026."
+
+[[news]]
 date = "2026-05-05"
 text = "✨ My paper with Antonio Faonio, [Sumcheck-based zkSNARKs are Non-Malleable](https://eprint.iacr.org/2026/335), has been accepted at CRYPTO 2026."
 
