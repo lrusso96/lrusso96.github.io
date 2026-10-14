@@ -1,4 +1,9 @@
 [[pubs]]
+title = "Revisiting Witness-Succinct UC-lifting Compilers"
+authors = "Davide Li Calsi, Luigi Russo, Dominique Schröder and Federico Valbusa"
+pdf = "https://eprint.iacr.org/2026/2453.pdf"
+
+[[pubs]]
 title = "Fully Adaptive FROST in the Algebraic Group Model From Falsifiable Assumptions"
 authors = "Ruben Baecker, Paul Gerhart, Davide Li Calsi, Luigi Russo, Dominique Schröder, and Arkady Yerukhimovich"
 venue = "ASIACRYPT 2026"
