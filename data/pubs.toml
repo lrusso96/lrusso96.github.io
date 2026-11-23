@@ -4,14 +4,14 @@ authors = "Davide Li Calsi, Luigi Russo, Dominique Schröder and Federico Valbus
 pdf = "https://eprint.iacr.org/2026/2453.pdf"
 
 [[pubs]]
-title = "Fully Adaptive FROST in the Algebraic Group Model From Falsifiable Assumptions"
+title = "Fully Adaptive FROST with Identifiable Aborts from AOMDL"
 authors = "Ruben Baecker, Paul Gerhart, Davide Li Calsi, Luigi Russo, Dominique Schröder, and Arkady Yerukhimovich"
 venue = "ASIACRYPT 2026"
-pdf = "https://eprint.iacr.org/2025/1950"
+pdf = "https://eprint.iacr.org/2025/1950.pdf"
 
 [[pubs]]
 title = "Sumcheck-based zkSNARKs are Non-Malleable"
-authors = "Antonio Faonio, and Luigi Russo"
+authors = "Antonio Faonio and Luigi Russo"
 venue = "CRYPTO 2026"
 pdf = "https://eprint.iacr.org/2026/335.pdf"
 
@@ -19,7 +19,7 @@ pdf = "https://eprint.iacr.org/2026/335.pdf"
 title = "Fully-Adaptive Two-Round Threshold Schnorr Signatures from DDH"
 authors = "Paul Gerhart, Davide Li Calsi, Luigi Russo, and Dominique Schröder"
 venue = "EUROCRYPT 2026"
-pdf = "https://eprint.iacr.org/2025/1478"
+pdf = "https://eprint.iacr.org/2025/1478.pdf"
 talk = "https://youtu.be/FbdbkOKby8c?si=qMFJj5K9prys0WOo&t=2754"
 
 [[pubs]]
@@ -39,7 +39,7 @@ talk = "https://youtu.be/spDQ_mVqQDs?t=3600"
 [[pubs]]
 title = "Bounded-Equivocable Pseudorandom Functions"
 authors = "Paul Gerhart, Davide Li Calsi, Luigi Russo, and Dominique Schröder"
-pdf = "https://eprint.iacr.org/2025/1894"
+pdf = "https://eprint.iacr.org/2025/1894.pdf"
 
 [[pubs]]
 title = "Real-world Universal zkSNARKs are non-malleable"
@@ -64,7 +64,7 @@ talk = "https://www.youtube.com/watch?v=vJzlds2QRRg"
 
 [[pubs]]
 title = "Mix-nets from re-randomizable and replayable CCA-secure public-key encryption"
-authors = "Antonio Faonio, and Luigi Russo"
+authors = "Antonio Faonio and Luigi Russo"
 venue = "SCN 2022"
 pdf = "https://eprint.iacr.org/2022/856.pdf"
 
@@ -72,5 +72,5 @@ pdf = "https://eprint.iacr.org/2022/856.pdf"
 title = "Identity-based matchmaking encryption without random oracles"
 authors = "Danilo Francati, Alessio Guidi, Luigi Russo, and Daniele Venturi"
 venue = "Indocrypt 2021"
-pdf = "https://eprint.iacr.org/2021/1660"
+pdf = "https://eprint.iacr.org/2021/1660.pdf"
 talk = "https://youtu.be/kyI2F-1vsbs?t=106"

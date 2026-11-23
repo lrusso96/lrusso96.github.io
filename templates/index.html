@@ -5,9 +5,9 @@
 <h1 class="about-name">
   <span class="about-first-name">Luigi</span> Russo
 </h1>
-<p class='quote'>
+<cite class='quote'>
 On est temporaire, c’est un fait, mais on a déjà temporé assez pour son grade. <span class='quote-author'>--Céline</span>
-</p>
+</cite>
 
 <p class='about-description'>
   I am a postdoctoral researcher at TU Wien, and I work in the Privacy Enhancing Technologies research unit of Dominique Schröder.
@@ -30,6 +30,20 @@ On est temporaire, c’est un fait, mais on a déjà temporé assez pour son gra
   {% endfor %}
 </section>
 
+{% set service = load_data(path="data/service.toml") %}
+<section class="service">
+  <h2>service</h2>
+  {% for group in service.service %}
+  <div class="service-item">
+    <span class="service-role">{{ group.role }}</span>
+    <ul class="service-venues">
+      {% for v in group.venues %}
+      <li>{{ v.name }}{% if v.award %} <span class="award">{{ v.award }}</span>{% endif %}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</section>
 
 <div class="contact">
     <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#108;&#117;&#105;&#103;&#105;&#46;&#114;&#117;&#115;&#115;&#111;&#64;&#116;&#117;&#119;&#105;&#101;&#110;&#46;&#97;&#99;&#46;&#97;&#116;" title="email">

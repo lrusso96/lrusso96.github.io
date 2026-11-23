@@ -1,0 +1,9 @@
+[[service]]
+role = "Program committee"
+venues = [
+  { name = "CCS 2026", award = "Top reviewer" },
+]
+
+[[service]]
+role = "External reviewer"
+venues = [ { name = "CRYPTO" }, { name = "EUROCRYPT" }, {name = "CCS"}, {name = "ASIACRYPT"}, { name = "TCC" }, { name = "PKC"}, { name = "ESORICS" }, {name = "CSF"}, {name = "SCN"}, {name = "ACNS"} ]
